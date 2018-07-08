@@ -85,10 +85,10 @@ passport.deserializeUser(User.deserializeUser());
 
 
 
-// app.listen(3000, function () {
-//   console.log('Server started');
-// });
-
-app.listen(process.env.PORT,process.env.IP, function () {
+app.listen(3000, function () {
   console.log('Server started');
 });
+
+// app.listen(process.env.PORT,process.env.IP, function () {
+//   console.log('Server started');
+// });
